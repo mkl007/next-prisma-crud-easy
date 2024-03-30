@@ -7,7 +7,7 @@ import NoteCards from './components/NoteCards';
 
 function HomePage() {
   const { notes, loadNotes } = useNotes()
-  console.log(notes,)
+  
 
   useEffect(() => {
     loadNotes()
